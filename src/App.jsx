@@ -1,12 +1,17 @@
 import React from 'react'
-
-const app = () => {
+import Card from './components/card';
+import './App.css';
+const App = () => {
+ 
   return (
     <div>
-      <h1>Hi my name is Gourav</h1>
-      <h1>this is my video page</h1>
+      <h1><Card /></h1>
+      <h1><Card /></h1>
+      <h1><Card /></h1>
+      <h1><Card /></h1>
+      <h1><Card /></h1>
     </div>
   )
 }
 
-export default app
+export default App
