@@ -1,9 +1,12 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (props) => {
+  console.log(props);
+  
   return (
     <div className='card'>
-      <h1>my components</h1>
+      <h1>{props.user},{props.age}
+      </h1>
     </div>
   )
 }

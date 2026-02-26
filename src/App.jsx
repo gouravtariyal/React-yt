@@ -4,12 +4,10 @@ import './App.css';
 const App = () => {
  
   return (
-    <div>
-      <h1><Card /></h1>
-      <h1><Card /></h1>
-      <h1><Card /></h1>
-      <h1><Card /></h1>
-      <h1><Card /></h1>
+    <div className='parent'>
+      <h1><Card user='Sourav' age={21}/></h1>
+          <h1><Card user='Gourav' age={27}/></h1>
+
     </div>
   )
 }
