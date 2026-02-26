@@ -3,10 +3,16 @@ body{
   width: 100%;
 }
 
-
-.card{
-background-color: green;
-padding: 10px;
-margin: 5px;
+.parent{
+  gap:30px;
+  display: flex;
 
 }
+.card{
+background-color: rgb(173, 244, 173);
+padding: 10px;
+margin: 5px;
+padding: 10px;
+height: 220px;
+width: 220px;
+} 
