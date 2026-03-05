@@ -1,13 +1,15 @@
 body{
-
   width: 100%;
+  background-color: red;
 }
 
 .parent{
   gap:30px;
   display: flex;
+  margin: auto;
 
 }
+
 .card{
 background-color: rgb(173, 244, 173);
 padding: 10px;
@@ -16,3 +18,12 @@ padding: 10px;
 height: 220px;
 width: 220px;
 } 
+
+.card .top button{
+font-family: 'Courier New', Courier, monospace;
+font-size: 70%;
+font-weight: 300;
+margin-right: auto;
+left: 30px;
+
+}
